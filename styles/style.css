@@ -1,0 +1,53 @@
+/* common shared styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    /* border black line remove */
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+/* space from text top and bottom 15px left and right 35px */
+    padding: 15px 35px;
+}
+
+/* nav related styles */
+nav {
+    /* put in the side */
+    display: flex;
+    justify-content: space-between;
+    /* item hight center */
+    align-items: center;
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    /* dot point out and from left gap margin 50px */
+    list-style: none;
+    margin-right: 50px;
+
+}
+
+nav a {
+    /* blue line out for the ankor tag and add a color on text */
+    text-decoration: none;
+    color: #474747;
+}
