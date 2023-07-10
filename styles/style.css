@@ -6,7 +6,10 @@ body {
 .text-primary {
     color: #FD6E0A;
 }
-
+/* header background color */
+.header{
+    background-color: #FFF8F3;
+}
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
@@ -26,6 +29,8 @@ nav {
     justify-content: space-between;
     /* item hight center */
     align-items: center;
+/* added margin */
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -50,4 +55,14 @@ nav a {
     /* blue line out for the ankor tag and add a color on text */
     text-decoration: none;
     color: #474747;
+}
+.banner{
+    /* banner contain text and pic that can place side by side */
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    /* text and pic align center wisee */
+    align-items: center;
+}
+.banner .profile-pic{
+width: 500px;
 }
